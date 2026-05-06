@@ -1,0 +1,714 @@
+[
+  {
+    "survey_number": "KA-DK-1101",
+    "owner_name": "Subrahmanya Gowda",
+    "mobile_number": "9448712345",
+    "village": "Aivarnadu",
+    "taluk": "Sulliya",
+    "district": "Dakshina Kannada",
+    "state": "Karnataka",
+    "location": {
+      "latitude": 12.5612,
+      "longitude": 75.3891,
+      "land_area_acres": 3.5,
+      "farm_boundary": [
+        { "lat": 12.5610, "lng": 75.3888 },
+        { "lat": 12.5614, "lng": 75.3888 },
+        { "lat": 12.5615, "lng": 75.3894 },
+        { "lat": 12.5611, "lng": 75.3895 },
+        { "lat": 12.5610, "lng": 75.3888 }
+      ]
+    },
+    "soil_data": {
+      "soil_type": "laterite",
+      "ph": 5.8,
+      "nitrogen": 210,
+      "phosphorus": 38,
+      "potassium": 175
+    },
+    "crop_details": {
+      "current_crop": "arecanut",
+      "previous_crop": "paddy",
+      "sowing_date": "2022-06-10",
+      "expected_harvest_date": "2025-01-15",
+      "growth_stage": "harvesting"
+    },
+    "sensor_data": {
+      "soil_moisture": 42,
+      "temperature": 28.4,
+      "humidity": 82,
+      "timestamp": "2025-05-05T07:30:00",
+      "history": [
+        { "soil_moisture": 39, "temperature": 29.1, "humidity": 80, "timestamp": "2025-05-04T07:30:00" },
+        { "soil_moisture": 44, "temperature": 27.8, "humidity": 85, "timestamp": "2025-05-03T07:30:00" },
+        { "soil_moisture": 41, "temperature": 28.0, "humidity": 83, "timestamp": "2025-05-02T07:30:00" }
+      ]
+    },
+    "disease_data": {
+      "disease_name": "Koleroga (Mahali Rot)",
+      "severity": "medium",
+      "date": "2025-04-28",
+      "status": "worsening"
+    },
+    "treatment_recommendation": {
+      "medicine_name": "Bordeaux Mixture (1%)",
+      "type": "fungicide",
+      "dosage": "10 litres per tree",
+      "application_method": "spraying on bunches and leaves",
+      "best_time": "early morning before 8 AM",
+      "reason": "Koleroga is a fungal rot aggravated by high humidity; Bordeaux mixture suppresses Phytophthora spread."
+    },
+    "nearby_shops": [
+      {
+        "shop_name": "Shree Krishi Seva Kendra, Sulliya",
+        "distance_km": 2.1,
+        "location": "Main Road, Sulliya Town",
+        "product_available": true
+      },
+      {
+        "shop_name": "Nandini Agro Suppliers",
+        "distance_km": 4.5,
+        "location": "Aivarnadu Junction",
+        "product_available": false
+      }
+    ],
+    "alerts": [
+      "Koleroga disease risk high due to continuous rainfall",
+      "Heavy rain expected next 48 hours — delay spraying",
+      "Soil moisture rising — reduce irrigation frequency"
+    ],
+    "irrigation": {
+      "status": "OFF",
+      "last_triggered": "2025-05-03T06:00:00",
+      "mode": "Automatic"
+    },
+    "ai_outputs": {
+      "recommended_crop": "arecanut",
+      "predicted_yield": 8.5,
+      "profit_estimate": "₹1,87,000"
+    }
+  },
+  {
+    "survey_number": "KA-DK-1102",
+    "owner_name": "Vijayalakshmi Rao",
+    "mobile_number": "9886523410",
+    "village": "Nettana",
+    "taluk": "Sulliya",
+    "district": "Dakshina Kannada",
+    "state": "Karnataka",
+    "location": {
+      "latitude": 12.5734,
+      "longitude": 75.3745,
+      "land_area_acres": 2.0,
+      "farm_boundary": [
+        { "lat": 12.5731, "lng": 75.3742 },
+        { "lat": 12.5737, "lng": 75.3742 },
+        { "lat": 12.5738, "lng": 75.3748 },
+        { "lat": 12.5732, "lng": 75.3749 },
+        { "lat": 12.5731, "lng": 75.3742 }
+      ]
+    },
+    "soil_data": {
+      "soil_type": "red loamy",
+      "ph": 6.2,
+      "nitrogen": 185,
+      "phosphorus": 44,
+      "potassium": 160
+    },
+    "crop_details": {
+      "current_crop": "betel",
+      "previous_crop": "banana",
+      "sowing_date": "2024-07-01",
+      "expected_harvest_date": "2025-07-01",
+      "growth_stage": "vegetative"
+    },
+    "sensor_data": {
+      "soil_moisture": 52,
+      "temperature": 27.6,
+      "humidity": 88,
+      "timestamp": "2025-05-05T07:30:00",
+      "history": [
+        { "soil_moisture": 50, "temperature": 28.0, "humidity": 86, "timestamp": "2025-05-04T07:30:00" },
+        { "soil_moisture": 55, "temperature": 27.2, "humidity": 90, "timestamp": "2025-05-03T07:30:00" },
+        { "soil_moisture": 49, "temperature": 28.5, "humidity": 85, "timestamp": "2025-05-02T07:30:00" }
+      ]
+    },
+    "disease_data": {
+      "disease_name": "Phytophthora Leaf Blight",
+      "severity": "low",
+      "date": "2025-05-01",
+      "status": "improving"
+    },
+    "treatment_recommendation": {
+      "medicine_name": "Ridomil Gold (Metalaxyl 8% + Mancozeb 64%)",
+      "type": "fungicide",
+      "dosage": "2.5 g per litre of water",
+      "application_method": "foliar spray",
+      "best_time": "morning 7–9 AM on dry leaves",
+      "reason": "Metalaxyl controls systemic Phytophthora infection common in humid betel vine gardens."
+    },
+    "nearby_shops": [
+      {
+        "shop_name": "Mallya Krishi Bhandar, Nettana",
+        "distance_km": 1.8,
+        "location": "Nettana Cross, Sulliya Road",
+        "product_available": true
+      },
+      {
+        "shop_name": "Devasthana Agri Centre",
+        "distance_km": 5.2,
+        "location": "Sulliya Bus Stand Area",
+        "product_available": true
+      }
+    ],
+    "alerts": [
+      "High humidity favoring Phytophthora spread",
+      "Soil moisture above optimal for betel — reduce drip frequency",
+      "Mild pest activity detected on younger vines"
+    ],
+    "irrigation": {
+      "status": "ON",
+      "last_triggered": "2025-05-05T06:15:00",
+      "mode": "Automatic"
+    },
+    "ai_outputs": {
+      "recommended_crop": "betel",
+      "predicted_yield": 5.2,
+      "profit_estimate": "₹1,04,000"
+    }
+  },
+  {
+    "survey_number": "KA-DK-1103",
+    "owner_name": "Narayana Bhat",
+    "mobile_number": "9741234567",
+    "village": "Kombodlu",
+    "taluk": "Sulliya",
+    "district": "Dakshina Kannada",
+    "state": "Karnataka",
+    "location": {
+      "latitude": 12.5490,
+      "longitude": 75.4012,
+      "land_area_acres": 4.2,
+      "farm_boundary": [
+        { "lat": 12.5487, "lng": 75.4009 },
+        { "lat": 12.5493, "lng": 75.4009 },
+        { "lat": 12.5494, "lng": 75.4016 },
+        { "lat": 12.5488, "lng": 75.4016 },
+        { "lat": 12.5487, "lng": 75.4009 }
+      ]
+    },
+    "soil_data": {
+      "soil_type": "laterite",
+      "ph": 5.6,
+      "nitrogen": 195,
+      "phosphorus": 31,
+      "potassium": 190
+    },
+    "crop_details": {
+      "current_crop": "arecanut",
+      "previous_crop": "arecanut",
+      "sowing_date": "2020-06-15",
+      "expected_harvest_date": "2025-02-10",
+      "growth_stage": "harvesting"
+    },
+    "sensor_data": {
+      "soil_moisture": 36,
+      "temperature": 30.2,
+      "humidity": 74,
+      "timestamp": "2025-05-05T08:00:00",
+      "history": [
+        { "soil_moisture": 34, "temperature": 31.0, "humidity": 72, "timestamp": "2025-05-04T08:00:00" },
+        { "soil_moisture": 38, "temperature": 29.8, "humidity": 76, "timestamp": "2025-05-03T08:00:00" },
+        { "soil_moisture": 33, "temperature": 31.5, "humidity": 70, "timestamp": "2025-05-02T08:00:00" }
+      ]
+    },
+    "disease_data": {
+      "disease_name": "Bud Rot",
+      "severity": "high",
+      "date": "2025-04-20",
+      "status": "worsening"
+    },
+    "treatment_recommendation": {
+      "medicine_name": "Copper Oxychloride 50% WP",
+      "type": "fungicide",
+      "dosage": "3 g per litre of water",
+      "application_method": "drench around crown and spray on emerging spathes",
+      "best_time": "early morning before rains",
+      "reason": "Bud Rot caused by Phytophthora palmivora; copper fungicide halts mycelial growth at crown."
+    },
+    "nearby_shops": [
+      {
+        "shop_name": "Kombodlu Sahakara Sangha Agri Store",
+        "distance_km": 0.9,
+        "location": "Kombodlu Village Centre",
+        "product_available": true
+      },
+      {
+        "shop_name": "Gopala Krishi Kendra",
+        "distance_km": 3.7,
+        "location": "Sulliya NH Road",
+        "product_available": false
+      }
+    ],
+    "alerts": [
+      "Bud Rot severity HIGH — immediate treatment required",
+      "Low soil moisture — activate irrigation",
+      "Temperature above 30°C increasing stress on palms"
+    ],
+    "irrigation": {
+      "status": "ON",
+      "last_triggered": "2025-05-05T05:45:00",
+      "mode": "Manual"
+    },
+    "ai_outputs": {
+      "recommended_crop": "arecanut",
+      "predicted_yield": 6.8,
+      "profit_estimate": "₹1,49,600"
+    }
+  },
+  {
+    "survey_number": "KA-DK-1104",
+    "owner_name": "Savitha Shetty",
+    "mobile_number": "9900345678",
+    "village": "Adyanthaya",
+    "taluk": "Sulliya",
+    "district": "Dakshina Kannada",
+    "state": "Karnataka",
+    "location": {
+      "latitude": 12.5820,
+      "longitude": 75.3670,
+      "land_area_acres": 1.8,
+      "farm_boundary": [
+        { "lat": 12.5818, "lng": 75.3667 },
+        { "lat": 12.5823, "lng": 75.3667 },
+        { "lat": 12.5824, "lng": 75.3674 },
+        { "lat": 12.5819, "lng": 75.3674 },
+        { "lat": 12.5818, "lng": 75.3667 }
+      ]
+    },
+    "soil_data": {
+      "soil_type": "loamy",
+      "ph": 6.5,
+      "nitrogen": 220,
+      "phosphorus": 50,
+      "potassium": 145
+    },
+    "crop_details": {
+      "current_crop": "betel",
+      "previous_crop": "pepper",
+      "sowing_date": "2024-08-10",
+      "expected_harvest_date": "2025-08-10",
+      "growth_stage": "vegetative"
+    },
+    "sensor_data": {
+      "soil_moisture": 58,
+      "temperature": 26.8,
+      "humidity": 91,
+      "timestamp": "2025-05-05T07:00:00",
+      "history": [
+        { "soil_moisture": 60, "temperature": 26.4, "humidity": 93, "timestamp": "2025-05-04T07:00:00" },
+        { "soil_moisture": 56, "temperature": 27.0, "humidity": 89, "timestamp": "2025-05-03T07:00:00" },
+        { "soil_moisture": 55, "temperature": 27.3, "humidity": 88, "timestamp": "2025-05-02T07:00:00" }
+      ]
+    },
+    "disease_data": {
+      "disease_name": "Foot Rot (Phytophthora)",
+      "severity": "medium",
+      "date": "2025-04-30",
+      "status": "improving"
+    },
+    "treatment_recommendation": {
+      "medicine_name": "Aliette (Fosetyl-Al 80% WP)",
+      "type": "fungicide",
+      "dosage": "2 g per litre of water",
+      "application_method": "soil drench at base of vines",
+      "best_time": "evening after 5 PM",
+      "reason": "Fosetyl-Al is absorbed systemically to fight Phytophthora foot rot in betel vine roots."
+    },
+    "nearby_shops": [
+      {
+        "shop_name": "Adyanthaya Krishi Seva Kendra",
+        "distance_km": 1.2,
+        "location": "Adyanthaya Main Road",
+        "product_available": true
+      },
+      {
+        "shop_name": "Srinivasa Agro Supplies, Sulliya",
+        "distance_km": 4.0,
+        "location": "Sulliya Town",
+        "product_available": true
+      }
+    ],
+    "alerts": [
+      "Waterlogging risk — check drainage in betel garden",
+      "Humidity above 90% for 3 consecutive days — fungal alert",
+      "Soil moisture at upper limit — stop irrigation"
+    ],
+    "irrigation": {
+      "status": "OFF",
+      "last_triggered": "2025-05-04T06:00:00",
+      "mode": "Automatic"
+    },
+    "ai_outputs": {
+      "recommended_crop": "betel",
+      "predicted_yield": 4.8,
+      "profit_estimate": "₹96,000"
+    }
+  },
+  {
+    "survey_number": "KA-DK-1105",
+    "owner_name": "Mohandas Poojary",
+    "mobile_number": "9535678901",
+    "village": "Manjalpadav",
+    "taluk": "Sulliya",
+    "district": "Dakshina Kannada",
+    "state": "Karnataka",
+    "location": {
+      "latitude": 12.5655,
+      "longitude": 75.3955,
+      "land_area_acres": 5.0,
+      "farm_boundary": [
+        { "lat": 12.5652, "lng": 75.3951 },
+        { "lat": 12.5658, "lng": 75.3951 },
+        { "lat": 12.5659, "lng": 75.3960 },
+        { "lat": 12.5653, "lng": 75.3960 },
+        { "lat": 12.5652, "lng": 75.3951 }
+      ]
+    },
+    "soil_data": {
+      "soil_type": "laterite",
+      "ph": 5.9,
+      "nitrogen": 200,
+      "phosphorus": 36,
+      "potassium": 180
+    },
+    "crop_details": {
+      "current_crop": "arecanut",
+      "previous_crop": "paddy",
+      "sowing_date": "2021-06-01",
+      "expected_harvest_date": "2025-12-15",
+      "growth_stage": "flowering"
+    },
+    "sensor_data": {
+      "soil_moisture": 45,
+      "temperature": 29.0,
+      "humidity": 79,
+      "timestamp": "2025-05-05T07:45:00",
+      "history": [
+        { "soil_moisture": 43, "temperature": 29.5, "humidity": 77, "timestamp": "2025-05-04T07:45:00" },
+        { "soil_moisture": 47, "temperature": 28.8, "humidity": 81, "timestamp": "2025-05-03T07:45:00" },
+        { "soil_moisture": 44, "temperature": 29.2, "humidity": 78, "timestamp": "2025-05-02T07:45:00" }
+      ]
+    },
+    "disease_data": {
+      "disease_name": "Spathe Rot",
+      "severity": "low",
+      "date": "2025-05-02",
+      "status": "improving"
+    },
+    "treatment_recommendation": {
+      "medicine_name": "Mancozeb 75% WP (Dithane M-45)",
+      "type": "fungicide",
+      "dosage": "2.5 g per litre of water",
+      "application_method": "spray on spathe and emerging bunches",
+      "best_time": "morning 6–8 AM",
+      "reason": "Mancozeb protects emerging inflorescence from early fungal infection during flowering stage."
+    },
+    "nearby_shops": [
+      {
+        "shop_name": "Narasimha Agri Depot, Sulliya",
+        "distance_km": 3.3,
+        "location": "Sulliya Bus Stand Road",
+        "product_available": true
+      },
+      {
+        "shop_name": "Manjalpadav PACS Agri Store",
+        "distance_km": 0.6,
+        "location": "Manjalpadav Village",
+        "product_available": false
+      }
+    ],
+    "alerts": [
+      "Flowering stage — avoid heavy pesticide application",
+      "Moderate fungal risk due to overnight dew",
+      "Inspect spathe weekly during flowering"
+    ],
+    "irrigation": {
+      "status": "OFF",
+      "last_triggered": "2025-05-04T07:00:00",
+      "mode": "Automatic"
+    },
+    "ai_outputs": {
+      "recommended_crop": "arecanut",
+      "predicted_yield": 9.2,
+      "profit_estimate": "₹2,02,400"
+    }
+  },
+  {
+    "survey_number": "KA-DK-1106",
+    "owner_name": "Chandrakala Hegde",
+    "mobile_number": "8197456321",
+    "village": "Bellare",
+    "taluk": "Sulliya",
+    "district": "Dakshina Kannada",
+    "state": "Karnataka",
+    "location": {
+      "latitude": 12.5780,
+      "longitude": 75.4105,
+      "land_area_acres": 2.5,
+      "farm_boundary": [
+        { "lat": 12.5777, "lng": 75.4102 },
+        { "lat": 12.5783, "lng": 75.4102 },
+        { "lat": 12.5784, "lng": 75.4109 },
+        { "lat": 12.5778, "lng": 75.4110 },
+        { "lat": 12.5777, "lng": 75.4102 }
+      ]
+    },
+    "soil_data": {
+      "soil_type": "red loamy",
+      "ph": 6.0,
+      "nitrogen": 178,
+      "phosphorus": 42,
+      "potassium": 155
+    },
+    "crop_details": {
+      "current_crop": "betel",
+      "previous_crop": "arecanut",
+      "sowing_date": "2024-06-15",
+      "expected_harvest_date": "2025-06-15",
+      "growth_stage": "flowering"
+    },
+    "sensor_data": {
+      "soil_moisture": 50,
+      "temperature": 28.1,
+      "humidity": 86,
+      "timestamp": "2025-05-05T07:15:00",
+      "history": [
+        { "soil_moisture": 48, "temperature": 28.6, "humidity": 84, "timestamp": "2025-05-04T07:15:00" },
+        { "soil_moisture": 52, "temperature": 27.9, "humidity": 88, "timestamp": "2025-05-03T07:15:00" },
+        { "soil_moisture": 47, "temperature": 28.8, "humidity": 83, "timestamp": "2025-05-02T07:15:00" }
+      ]
+    },
+    "disease_data": {
+      "disease_name": "Anthracnose Leaf Spot",
+      "severity": "medium",
+      "date": "2025-04-25",
+      "status": "worsening"
+    },
+    "treatment_recommendation": {
+      "medicine_name": "Carbendazim 50% WP",
+      "type": "fungicide",
+      "dosage": "1 g per litre of water",
+      "application_method": "foliar spray covering both sides of leaves",
+      "best_time": "morning before 9 AM",
+      "reason": "Carbendazim effectively controls Colletotrichum anthracnose responsible for betel leaf spots."
+    },
+    "nearby_shops": [
+      {
+        "shop_name": "Bellare Krishi Kendra",
+        "distance_km": 0.8,
+        "location": "Bellare Town, Main Road",
+        "product_available": true
+      },
+      {
+        "shop_name": "Kamala Agro Store, Sulliya",
+        "distance_km": 5.5,
+        "location": "Sulliya Market Junction",
+        "product_available": true
+      }
+    ],
+    "alerts": [
+      "Anthracnose spreading — spray this week",
+      "Rain forecast for 3 days — apply contact fungicide before rain",
+      "Soil moisture optimal — maintain current irrigation"
+    ],
+    "irrigation": {
+      "status": "ON",
+      "last_triggered": "2025-05-05T06:30:00",
+      "mode": "Manual"
+    },
+    "ai_outputs": {
+      "recommended_crop": "betel",
+      "predicted_yield": 6.0,
+      "profit_estimate": "₹1,20,000"
+    }
+  },
+  {
+    "survey_number": "KA-DK-1107",
+    "owner_name": "Dinesh Kumar Acharya",
+    "mobile_number": "9480112233",
+    "village": "Panja",
+    "taluk": "Sulliya",
+    "district": "Dakshina Kannada",
+    "state": "Karnataka",
+    "location": {
+      "latitude": 12.5530,
+      "longitude": 75.3820,
+      "land_area_acres": 3.0,
+      "farm_boundary": [
+        { "lat": 12.5527, "lng": 75.3817 },
+        { "lat": 12.5533, "lng": 75.3817 },
+        { "lat": 12.5534, "lng": 75.3824 },
+        { "lat": 12.5528, "lng": 75.3825 },
+        { "lat": 12.5527, "lng": 75.3817 }
+      ]
+    },
+    "soil_data": {
+      "soil_type": "laterite",
+      "ph": 5.7,
+      "nitrogen": 205,
+      "phosphorus": 33,
+      "potassium": 185
+    },
+    "crop_details": {
+      "current_crop": "arecanut",
+      "previous_crop": "coconut",
+      "sowing_date": "2019-07-01",
+      "expected_harvest_date": "2025-03-20",
+      "growth_stage": "harvesting"
+    },
+    "sensor_data": {
+      "soil_moisture": 38,
+      "temperature": 30.8,
+      "humidity": 72,
+      "timestamp": "2025-05-05T08:30:00",
+      "history": [
+        { "soil_moisture": 36, "temperature": 31.2, "humidity": 70, "timestamp": "2025-05-04T08:30:00" },
+        { "soil_moisture": 40, "temperature": 30.5, "humidity": 74, "timestamp": "2025-05-03T08:30:00" },
+        { "soil_moisture": 35, "temperature": 31.8, "humidity": 69, "timestamp": "2025-05-02T08:30:00" }
+      ]
+    },
+    "disease_data": {
+      "disease_name": "Yellow Leaf Disease",
+      "severity": "high",
+      "date": "2025-04-15",
+      "status": "worsening"
+    },
+    "treatment_recommendation": {
+      "medicine_name": "Imidacloprid 17.8% SL",
+      "type": "pesticide",
+      "dosage": "0.5 ml per litre of water as soil drench",
+      "application_method": "root zone soil drench",
+      "best_time": "early morning, once a month",
+      "reason": "Yellow Leaf Disease is spread by the leafhopper Proutista moesta; Imidacloprid controls vector population at root level."
+    },
+    "nearby_shops": [
+      {
+        "shop_name": "Panja Cooperative Agri Store",
+        "distance_km": 1.0,
+        "location": "Panja Village Panchayat Road",
+        "product_available": true
+      },
+      {
+        "shop_name": "Suresh Krishi Bhandar, Sulliya",
+        "distance_km": 6.2,
+        "location": "Sulliya Town Bus Stand",
+        "product_available": true
+      }
+    ],
+    "alerts": [
+      "Yellow Leaf Disease HIGH — consult horticulture officer",
+      "Low soil moisture — irrigation required immediately",
+      "Pest vector activity detected — apply insecticide"
+    ],
+    "irrigation": {
+      "status": "ON",
+      "last_triggered": "2025-05-05T05:30:00",
+      "mode": "Manual"
+    },
+    "ai_outputs": {
+      "recommended_crop": "arecanut",
+      "predicted_yield": 5.5,
+      "profit_estimate": "₹1,21,000"
+    }
+  },
+  {
+    "survey_number": "KA-DK-1108",
+    "owner_name": "Rekha Kudva",
+    "mobile_number": "7760345219",
+    "village": "Aranthodu",
+    "taluk": "Sulliya",
+    "district": "Dakshina Kannada",
+    "state": "Karnataka",
+    "location": {
+      "latitude": 12.5870,
+      "longitude": 75.3990,
+      "land_area_acres": 2.2,
+      "farm_boundary": [
+        { "lat": 12.5867, "lng": 75.3987 },
+        { "lat": 12.5873, "lng": 75.3987 },
+        { "lat": 12.5874, "lng": 75.3994 },
+        { "lat": 12.5868, "lng": 75.3995 },
+        { "lat": 12.5867, "lng": 75.3987 }
+      ]
+    },
+    "soil_data": {
+      "soil_type": "loamy",
+      "ph": 6.8,
+      "nitrogen": 230,
+      "phosphorus": 55,
+      "potassium": 140
+    },
+    "crop_details": {
+      "current_crop": "betel",
+      "previous_crop": "paddy",
+      "sowing_date": "2024-09-01",
+      "expected_harvest_date": "2025-09-01",
+      "growth_stage": "seedling"
+    },
+    "sensor_data": {
+      "soil_moisture": 55,
+      "temperature": 26.5,
+      "humidity": 92,
+      "timestamp": "2025-05-05T07:00:00",
+      "history": [
+        { "soil_moisture": 53, "temperature": 27.0, "humidity": 90, "timestamp": "2025-05-04T07:00:00" },
+        { "soil_moisture": 57, "temperature": 26.2, "humidity": 94, "timestamp": "2025-05-03T07:00:00" },
+        { "soil_moisture": 52, "temperature": 27.4, "humidity": 89, "timestamp": "2025-05-02T07:00:00" }
+      ]
+    },
+    "disease_data": {
+      "disease_name": "Damping Off",
+      "severity": "low",
+      "date": "2025-05-03",
+      "status": "improving"
+    },
+    "treatment_recommendation": {
+      "medicine_name": "Thiram 75% WS",
+      "type": "fungicide",
+      "dosage": "3 g per kg of planting material",
+      "application_method": "seed/cutting treatment before planting",
+      "best_time": "at time of planting",
+      "reason": "Thiram seed treatment prevents Pythium damping off in young betel seedlings in high-moisture nursery conditions."
+    },
+    "nearby_shops": [
+      {
+        "shop_name": "Aranthodu Agri Services",
+        "distance_km": 0.5,
+        "location": "Aranthodu Village",
+        "product_available": true
+      },
+      {
+        "shop_name": "Jayalakshmi Fertilizer Store, Sulliya",
+        "distance_km": 4.8,
+        "location": "Sulliya NH Bypass Road",
+        "product_available": false
+      }
+    ],
+    "alerts": [
+      "Seedling stage — handle with care, avoid waterlogging",
+      "Humidity critical at 92% — ensure proper shade and airflow",
+      "Damping off detected — treat cuttings before replanting"
+    ],
+    "irrigation": {
+      "status": "OFF",
+      "last_triggered": "2025-05-04T08:00:00",
+      "mode": "Automatic"
+    },
+    "ai_outputs": {
+      "recommended_crop": "betel",
+      "predicted_yield": 5.5,
+      "profit_estimate": "₹1,10,000"
+    }
+  }
+]
