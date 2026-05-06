@@ -94,6 +94,11 @@ export interface DiseaseResponse {
   treatment?: Record<string, any>;
 }
 
+export interface SensorResponse {
+  temperature: number;
+  humidity: number;
+  soil_moisture: number;
+}
 // ==========================================
 // 2. Fetch Utility
 // ==========================================
@@ -107,13 +112,13 @@ const getAuthHeaders = (): HeadersInit => {
 // Generic fetch wrapper
 async function apiCall<T>(endpoint: string, options: RequestInit = {}): Promise<T> {
   const url = `${BASE_URL}${endpoint}`;
-  
+
   try {
     const controller = new AbortController();
     // Increase timeout to 5 minutes for disease detection
     const timeoutDuration = endpoint.includes('detect-disease') ? 300000 : 60000;
     const timeoutId = setTimeout(() => controller.abort(), timeoutDuration);
-    
+
     const response = await fetch(url, {
       ...options,
       signal: controller.signal,
@@ -138,6 +143,8 @@ async function apiCall<T>(endpoint: string, options: RequestInit = {}): Promise<
 // ==========================================
 // 3. API Client Functions
 // ==========================================
+
+
 
 export const apiClient = {
   // --- Authentication ---
@@ -183,9 +190,9 @@ export const apiClient = {
 
   recommendCrop: async (data: CropRecommendRequest): Promise<CropRecommendResponse> => {
     return apiCall<CropRecommendResponse>("/recommend-crop", {
-        method: "POST",
-        headers: getAuthHeaders(),
-        body: JSON.stringify(data),
+      method: "POST",
+      headers: getAuthHeaders(),
+      body: JSON.stringify(data),
     });
   },
 
@@ -195,20 +202,28 @@ export const apiClient = {
       headers: getAuthHeaders(),
     });
   },
+  getSensorData: async (): Promise<SensorResponse> => {
+    return apiCall<SensorResponse>("/sensor", {
+      method: "GET",
+      headers: getAuthHeaders(),
+    });
+  },
 
   detectDisease: async (file: File): Promise<DiseaseResponse> => {
     const formData = new FormData();
     formData.append("file", file);
-    
+
+
+
     // Note: FormData handles Content-Type automatically (multipart/form-data boundary).
     // For authorization, we must strictly omit custom application/json headers for this request.
     const token = localStorage.getItem("access_token");
     const headers: HeadersInit = token ? { "authorization": `Bearer ${token}` } : {};
 
     return apiCall<DiseaseResponse>("/detect-disease", {
-        method: "POST",
-        headers: headers,
-        body: formData,
+      method: "POST",
+      headers: headers,
+      body: formData,
     });
   }
 };

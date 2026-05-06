@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
 from app.api.routes import auth, recommend
-
+from app.api.sensor import router as sensor_router
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -28,7 +28,7 @@ app.add_middleware(
 
 app.include_router(auth.router)
 app.include_router(recommend.router)
-
+app.include_router(sensor_router)
 
 @app.get("/health", tags=["default"])
 def health():

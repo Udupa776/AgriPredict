@@ -62,6 +62,7 @@ export const DashboardLayout = () => {
     { name: t('common.disease_detect'), path: '/disease', icon: <Icons.Disease /> },
     { name: t('common.recommend_crop'), path: '/recommend', icon: <Icons.Recommend /> },
     { name: t('common.profile'), path: '/profile', icon: <Icons.Profile /> },
+    { name: t('common.sensor_dashboard'), path: "/sensor-dashboard", icon: <Icons.Bell /> }
   ];
 
   return (

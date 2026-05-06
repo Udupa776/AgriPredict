@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './i18n';
 import Frontend from './Frontend';
+import SensorDashboard from "./pages/SensorDashboard";
 import { Login } from './pages/Login';
 import { Register } from './pages/Register';
 import { DashboardLayout } from './pages/DashboardLayout';
@@ -25,7 +26,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/soil-details" element={<SoilDetails />} />
-
+        <Route path="/sensor-dashboard" element={<SensorDashboard />} />
         {/* Dashboard Shell via Layout */}
         <Route element={<DashboardLayout />}>
           <Route path="/dashboard" element={<DashboardOverview />} />
