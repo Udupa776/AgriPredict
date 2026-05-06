@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply antialiased text-slate-700 bg-slate-500;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 1;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
